@@ -12,5 +12,11 @@ with col_2:
     content = """
         An Aspiring Python Developer
     """
-    st.write(content)
+    st.info(content)
 
+    bio = """
+        A Graduate of B.S. in Computer Science in Arellano University Andres Bonifacio Campus\n
+        Software Engineer at Tsukiden Global Solutions Inc.\n
+        Python, Javascript, Rust\n
+    """
+    st.write(bio)
