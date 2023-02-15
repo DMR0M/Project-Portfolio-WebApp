@@ -21,3 +21,4 @@ From: {user_email}
     if button:
         send_email(message)
         st.info("Your email was sent successfully")
+    ch_box = st.checkbox('Sample checkbox')

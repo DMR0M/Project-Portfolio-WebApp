@@ -7,7 +7,7 @@ st.set_page_config(layout="wide")
 col_1, col_2 = st.columns(2)
 
 with col_1:
-    st.image("images/Mittens.png")
+    st.image("profile_img/Mittens.png")
 
 with col_2:
     st.title("Rommel Rudolf A. Dela Merced")
@@ -36,6 +36,7 @@ with col3:
     for i, row in projects_df[:10].iterrows():
         st.header(row['title'])
         st.write(row['description'])
+        st.image('images/' + row['image'])
         st.write(f'[Source Code]({row["url"]})')
 
 
