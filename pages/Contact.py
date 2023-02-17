@@ -1,6 +1,20 @@
 import streamlit as st
 import os
-from send_email import send_email
+import smtplib
+import ssl
+
+
+def send_email(message):
+    host = 'smtp.gmail.com'
+    port = 465
+    username = 'rommeldm87@gmail.com'
+    password = os.getenv('PASSWORD')
+    receiver = 'rommeldm87@gmail.com'
+    context = ssl.create_default_context()
+
+    with smtplib.SMTP_SSL(host, port, context=context) as server:
+        server.login(username, password)
+        server.sendmail(username, receiver, message)
 
 
 print(os.getcwd())
@@ -21,4 +35,3 @@ From: {user_email}
     if button:
         send_email(message)
         st.info("Your email was sent successfully")
-    ch_box = st.checkbox('Sample checkbox')
