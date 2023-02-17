@@ -32,7 +32,8 @@ projects_df = pd.read_csv('projects/projects.csv', sep=',')
 
 st.image('images/1.png', caption='TO-DO List WebApp')
 st.image('images/2.png', caption='TO-DO List GUI')
-st.image('images/3.png', caption='Python Projects Showcase WebApp')
+st.image('images/3.png', caption='Projects Showcase WebApp')
+st.image('images/4.png', caption='Weather Forecast WebApp')
 # Add to column 1, 1-10 project title column
 with col3:
     for i, row in projects_df[:10].iterrows():
