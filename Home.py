@@ -31,17 +31,22 @@ col3, empty_col, col4 = st.columns([1.5, 0.5, 1.5])
 projects_df = pd.read_csv('projects/projects.csv', sep=',')
 
 st.image('images/1.png', caption='TO-DO List WebApp')
+st.markdown("***")
 st.image('images/2.png', caption='TO-DO List GUI')
+st.markdown("***")
 st.image('images/3.png', caption='Projects Showcase WebApp')
+st.markdown("***")
 st.image('images/4.png', caption='Weather Forecast WebApp')
+st.markdown("***")
+
+
 # Add to column 1, 1-10 project title column
 with col3:
     for i, row in projects_df[:10].iterrows():
         st.header(row['title'])
         st.write(row['description'])
-
         st.write(f'[Source Code]({row["url"]})')
-
+        st.markdown("***")
 
 # Add to column 2, 11-20 project title column
 with col4:
@@ -49,3 +54,6 @@ with col4:
         st.header(row['title'])
         st.write(row['description'])
         st.write(f'[Source Code]({row["url"]})')
+        st.markdown("***")
+
+st.markdown("***")
