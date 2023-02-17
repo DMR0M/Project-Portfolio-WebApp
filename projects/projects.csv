@@ -14,7 +14,7 @@ Typing Analyzer  ,A program that monitors the computer keyboard and returns the 
 Internet Speed Analysis ,A program that records the internet speed every few seconds and plots the values on the browser.,https://pythonhow.com,13.png
 Monitoring Data ,A program that monitors a particular website and periodically records the data to a remote server.,https://pythonhow.com,14.png
 Visualizing Data  ,A program that visualizes the data collected in the previous monitoring program.,https://pythonhow.com,15.png
-Visualizing Weather Forecast,A data web app that visualizes the weather forecast for the next five days of any city.,https://pythonhow.com,16.png
+Visualizing Weather Forecast,A data web app that visualizes the weather forecast for the next five days of any city.,https://github.com/DMR0M/Weather_Forecast_WebApp/tree/master,16.png
 Student Management System ,A desktop PyQt6 GUI app for managing university student data with an SQL database backend. ,https://pythonhow.com,17.png
 School Management System,A desktop PyQt6 GUI app for managing complex university data with an SQL database backend.,https://pythonhow.com,18.png
 Restaurant Menu Web App ,A Django web app to let customers see a restaurant menu and meal availability,https://pythonhow.com,19.png
