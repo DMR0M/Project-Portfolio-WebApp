@@ -23,7 +23,7 @@ with col_2:
     """
     st.info(bio)
 
-st.subheader('Python Projects: ')
+st.subheader('Projects: ')
 
 col3, empty_col, col4 = st.columns([1.5, 0.5, 1.5])
 
