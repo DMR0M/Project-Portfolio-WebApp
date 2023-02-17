@@ -12,7 +12,7 @@ Helper Chatbot,A chatbot that knows about a specific topic and answers questions
 Open Domain Chatbot ,A chatbot built that can discuss anything with a human and is built using the Facebook API.,https://pythonhow.com,10.png
 Webcam Motion Detector ,A program that monitors the computer webcam and sends an email when a new object enters the view.,https://pythonhow.com,11.png
 Typing Analyzer  ,A program that monitors the computer keyboard and returns the most typed words of the session.,https://pythonhow.com,12.png
-World Country Currency Tracker Website, A data web app that keeps track of the all the country's currency value, https://pythonhow.com,13.png
+Country Currency Exchange Rate Website, A data web app that keeps track of the all the country's currency exchange rates, https://pythonhow.com,13.png
 Monitoring Data ,A program that monitors a particular website and periodically records the data to a remote server.,https://pythonhow.com,14.png
 Visualizing Data  ,A program that visualizes the data collected in the previous monitoring program.,https://pythonhow.com,15.png
 Visualizing Weather Forecast,A data web app that visualizes the weather forecast for the next five days of any city.,https://github.com/DMR0M/Weather_Forecast_WebApp/tree/master,16.png
