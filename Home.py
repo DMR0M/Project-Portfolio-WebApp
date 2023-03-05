@@ -38,6 +38,8 @@ st.image('images/3.png', caption='Projects Showcase WebApp')
 st.markdown("***")
 st.image('images/4.png', caption='Weather Forecast WebApp')
 st.markdown("***")
+st.image('images/5.png', caption='GUI Calculator')
+st.markdown("***")
 
 
 # Add to column 1, 1-10 project title column

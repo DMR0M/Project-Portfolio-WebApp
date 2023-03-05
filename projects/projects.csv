@@ -4,7 +4,7 @@ Portfolio Website,A website built entirely in Python to showcase coding projects
 PDF Templates,A script that generates PDF templates of multiple pages given some predefined guidelines.,https://pythonhow.com,3.png
 PDF Invoices,A script that reads invoice records from Excel files and automatically generates PDF invoices.,https://pythonhow.com,4.png
 Positive News Site,A website that gets data from a news API and uses sentiment analysis to publish only positive news.,https://pythonhow.com,5.png
-Simple GUI Calculator,A GUI calculator made in Python GUI library,https://pythonhow.com,6.png;
+Simple GUI Calculator,A GUI calculator made in Python GUI library,https://github.com/DMR0M/gui_calculator,6.png;
 Sudoku Solver GUI, A GUI sudoku game made in Python GUI library,https://pythonhow.com,x.png;
 Download Cleaner,A script that monitors the Downloads folder and deletes old files keeping the folder clean.,https://pythonhow.com,7.png
 Tour Scraper,A program that checks a music band's website and sends an email when there are new tours.,https://pythonhow.com,8.png
